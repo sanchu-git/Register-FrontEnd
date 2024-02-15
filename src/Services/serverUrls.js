@@ -1,0 +1,1 @@
+export const SERVER_URL="https://registerback-fg25.onrender.com"
