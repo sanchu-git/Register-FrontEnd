@@ -13,7 +13,7 @@ function AllStudents() {
     },[])
     console.log(allStudents)
   return (
-    <>
+    <div className='mt-5'>
          <h1 className='text-center'>All Students List</h1>
         
             <Table striped bordered hover>
@@ -50,7 +50,7 @@ function AllStudents() {
         ))
          }
      </Table>
-    </>
+    </div>
   )
 }
 

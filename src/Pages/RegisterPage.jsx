@@ -36,16 +36,11 @@ function RegisterPage() {
       <div style={{ height: "100vh" }} className="row">
         <div
           style={{ height: "100%" }}
-          className="col-4 bg-info d-flex flex-column justify-content-center align-content-center "
+          className="col-4 bg-success d-flex flex-column justify-content-center align-content-center "
         >
           <h2 className="text-center mb-3 fw-bolder">Welcome</h2>
-          <h5 className="text-center fw-bold mb-3 text-white ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            dolore quibusdam soluta perspiciatis mollitia totam debitis cumque
-            nihil dolorum.
-          </h5>
           <Link to={'/'} className="d-flex justify-content-center text-decoration-none ">
-            <button className="btn btn-danger ">Go Back</button>
+            <button className="btn btn-info ">Go Back</button>
           </Link>
         </div>
         <div className="col-8 py-5 ">
